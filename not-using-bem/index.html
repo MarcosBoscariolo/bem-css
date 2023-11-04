@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Uni</title>
+</head>
+
+<body>
+  <header class="header">
+    <span class="logo">uni</span>
+    <nav>
+      <ul class="list">
+        <li><a href="">Cursos</a></li>
+        <li><a href="">Comunidade</a></li>
+        <li><a class="active" href="">Desempenho</a></li>
+      </ul>
+    </nav>
+    <div class="user">
+      <img class="avatar" src="./../shared/assets/avatar-02.jpg" alt="" />
+      <div class="text">
+        <span class="name">Rodrigo Martins</span>
+        <span class="role">Mentor</span>
+      </div>
+    </div>
+  </header>
+  <main>
+    <h1>suas mentorias</h1>
+    <!-- demonstrar problema de sobrescrita de estilo -->
+    <!-- <div class="card">
+            <img loading="lazy" class="avatar" src="https://placehold.it/200x200" alt="" />
+            <span class="name">Nome do Usuário</span>
+            <span class="role">Mentor</span>
+        </div> -->
+
+    <section>
+      <div class="card">
+        <img class="user-avatar" src="./../shared/assets/avatar-01.jpg" alt="" />
+        <span class="user-name">Vilmar Fernandez</span>
+        <div class="info-container">
+          <div class="info">
+            <span>status</span>
+            <span>ativo</span>
+          </div>
+          <div class="info">
+            <span>média</span>
+            <span>8.4</span>
+          </div>
+          <div class="info">
+            <span>acompanhar</span>
+            <button class="btn">»</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="user-avatar ausente" src="./../shared/assets/avatar-04.jpg" alt="" />
+        <span class="user-name">Rute Pereira</span>
+        <div class="info-container">
+          <div class="info">
+            <span>status</span>
+            <span>ausente</span>
+          </div>
+          <div class="info">
+            <span>média</span>
+            <span>9</span>
+          </div>
+          <div class="info">
+            <span>acompanhar</span>
+            <button class="btn">»</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="user-avatar inactive" src="./../shared/assets/avatar-03.jpg" alt="" />
+        <span class="user-name">Fábio Santos</span>
+        <div class="info-container">
+          <div class="info">
+            <span>status</span>
+            <span>inativo</span>
+          </div>
+          <div class="info">
+            <span>média</span>
+            <span>2.7</span>
+          </div>
+          <div class="info">
+            <span>acompanhar</span>
+            <button class="btn disabled">»</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

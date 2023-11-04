@@ -1,0 +1,55 @@
+.card-user {
+  border: 1px solid #ccc;
+	border-radius: 8px;
+	display: grid;
+  gap: 16px;
+	padding: 32px;
+	max-width: 400px;
+}
+
+.card-user__avatar {
+  border: 9px solid var(--color-active);
+	border-radius: 50%;
+	justify-self: center;
+	width: 200px;
+	height: 200px;
+}
+
+.card-user__avatar--ausente {
+  border-color: var(--color-ausente);
+}
+
+.card-user__avatar--inactive {
+  border-color: var(--color-inactive);
+}
+
+.card-user__name {
+  font-size: 20px;
+	margin-top: 8px;
+	text-align: center;
+}
+
+.card-user__infos {
+  display: flex;
+	gap: 18px;
+	margin: 20px auto;
+}
+
+.card-user__info {
+  display: flex;
+	flex-direction: column;
+	gap: 8px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.card-user__btn {
+  background-color: #0089b38a;
+	border-radius: 8px;
+	padding: 4px 14px;
+}
+
+.card-user__btn--disabled {
+  background-color: #ccc;
+	cursor: not-allowed;
+}

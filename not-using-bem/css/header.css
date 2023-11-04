@@ -1,0 +1,67 @@
+.header {
+	background-color: var(--bg-primary);
+	color: var(--color-01);
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	padding: 20px 80px;
+}
+
+.logo {
+	font-size: 30px;
+}
+
+.list {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.list a {
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.active {
+	border-bottom: 2px solid var(--color-purple);
+  padding-bottom: 4px;
+}
+
+.avatar {
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+}
+
+.text {
+	display: grid;
+}
+
+.role {
+	color: #8C8CBA;
+	margin: 4px 0 0 12px;
+	position: relative;
+}
+
+.role::before {
+	background-color: var(--color-purple);
+	content: "";
+	border-radius: 2px;
+	display: block;
+	margin-left: -8px;
+	top: 30%;
+	left: -4px;
+	width: 8px;
+	height: 50%;
+	position: absolute;
+}

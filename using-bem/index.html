@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Uni</title>
+</head>
+<body>
+  <header class="header">
+    <span class="header__logo">uni</span>
+    <nav>
+      <ul class="list">
+        <li><a class="list__link" href="">Cursos</a></li>
+        <li><a class="list__link" href="">Comunidade</a></li>
+        <li><a class="list__link list__link--active" href="">Desempenho</a></li>
+      </ul>
+    </nav>
+    <div class="user-profile">
+      <img class="user-profile__avatar" src="./../shared/assets/avatar-02.jpg" alt="">
+      <div class="user-profile__identidy">
+        <span>Rodrigo Martins</span>
+        <span class="user-profile__role">Mentor</span>
+      </div>
+    </div>
+  </header>
+  <main>
+    <h1>suas mentorias</h1>
+    <section>
+      <div class="card-user">
+        <img class="card-user__avatar" src="./../shared/assets/avatar-01.jpg" alt="" />
+        <span class="card-user__name">Vilmar Fernandez</span>
+        <div class="card-user__infos">
+          <div class="card-user__info">
+            <span>status</span>
+            <span>ativo</span>
+          </div>
+          <div class="card-user__info">
+            <span>média</span>
+            <span>8.4</span>
+          </div>
+          <div class="card-user__info">
+            <span>acompanhar</span>
+            <button class="card-user__btn">»</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-user">
+        <img class="card-user__avatar card-user__avatar--ausente" src="./../shared/assets/avatar-04.jpg" alt="" />
+        <span class="card-user__name">Rute Pereira</span>
+        <div class="card-user__infos">
+          <div class="card-user__info">
+            <span>status</span>
+            <span>ausente</span>
+          </div>
+          <div class="card-user__info">
+            <span>média</span>
+            <span>9</span>
+          </div>
+          <div class="card-user__info">
+            <span>acompanhar</span>
+            <button class="card-user__btn">»</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-user">
+        <img class="card-user__avatar card-user__avatar--inactive" src="./../shared/assets/avatar-03.jpg" alt="" />
+        <span class="card-user__name">Fábio Santos</span>
+        <div class="card-user__infos">
+          <div class="card-user__info">
+            <span>status</span>
+            <span>inativo</span>
+          </div>
+          <div class="card-user__info">
+            <span>média</span>
+            <span>2.7</span>
+          </div>
+          <div class="card-user__info">
+            <span>acompanhar</span>
+            <button class="card-user__btn card-user__btn--disabled">»</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

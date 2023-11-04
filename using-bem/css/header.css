@@ -1,0 +1,67 @@
+.header {
+  background-color: var(--bg-primary);
+	color: var(--color-01);
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	padding: 20px 80px;
+}
+
+.header__logo {
+  font-size: 30px;
+}
+
+.list {
+  list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.list__link {
+  font-size: 18px;
+	text-decoration: none;
+}
+
+.list__link--active {
+  border-bottom: 2px solid var(--color-purple);
+  padding-bottom: 4px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.user-profile__avatar {
+  border-radius: 50%;
+  width: 60px;
+	height: 60px;
+}
+
+.user-profile__identidy {
+  display: grid;
+}
+
+.user-profile__role {
+	color: #8C8CBA;
+  margin: 4px 0 0 12px;
+	position: relative;
+}
+
+.user-profile__role::before {
+	background-color: var(--color-purple);
+	content: "";
+	border-radius: 2px;
+	display: block;
+	margin-left: -8px;
+	top: 30%;
+	left: -4px;
+	width: 8px;
+	height: 50%;
+	position: absolute;
+}
